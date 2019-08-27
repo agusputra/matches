@@ -1,7 +1,7 @@
 'use strict';
 
 function main (regex, text) {
-  if (!regex.global) throw new Error('option global not set')
+  if (!regex.global) throw new Error("Regex option global hasn't been set")
 
   let matches = [];
 
