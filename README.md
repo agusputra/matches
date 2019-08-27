@@ -5,10 +5,6 @@ regular expression.
 ## Install
 `yarn add https://github.com/agusputra/matches`
 
-## Build
-1. Run `yarn install`
-2. Run `yarn rollup -c`
-
 ## Test
 1. Run `yarn install`
 3. Run `yarn test`
