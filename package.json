@@ -1,0 +1,22 @@
+{
+  "name": "matches",
+  "version": "1.0.0",
+  "description": "Return multiple matches of matching a string against a regular expression.",
+  "main": "dist/matches.js",
+  "repository": "https://github.com/agusputra/matches",
+  "author": "Agus Syahputra",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "rollup": "^1.20.2",
+    "rollup-plugin-babel": "^4.3.3"
+  }
+}
